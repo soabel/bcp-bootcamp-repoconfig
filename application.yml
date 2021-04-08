@@ -1,0 +1,12 @@
+
+server:
+  port: 8082
+
+spring:
+#  spring:
+#    profiles:
+#      active: dev
+  application:
+    name: bootcamp-shopvintage-auctions
+  config:
+    import: optional:configserver:http://localhost:8888
